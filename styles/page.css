@@ -133,6 +133,8 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   background-color: white;
+  -webkit-box-shadow: 1px 1px 0.2rem;
+          box-shadow: 1px 1px 0.2rem;
 }
 
 .header .action__container .search__container input {
@@ -309,6 +311,8 @@
   position: absolute;
   top: 3rem;
   left: 13rem;
+  -webkit-box-shadow: 1px 1px 0.5rem;
+          box-shadow: 1px 1px 0.5rem;
 }
 
 .collab__image #img2 {
@@ -316,6 +320,8 @@
   position: absolute;
   left: -2rem;
   top: 10rem;
+  -webkit-box-shadow: 1px 1px 0.5rem;
+          box-shadow: 1px 1px 0.5rem;
 }
 
 .collab__image #img3 {
@@ -323,6 +329,8 @@
   position: absolute;
   left: 13rem;
   top: 20rem;
+  -webkit-box-shadow: 1px 1px 0.5rem;
+          box-shadow: 1px 1px 0.5rem;
 }
 
 .collab__content {
@@ -338,8 +346,8 @@
           flex-flow: column;
   background-color: white;
   padding: 4rem 1.5rem;
-  -webkit-box-shadow: 1px 1px 2px grey;
-          box-shadow: 1px 1px 2px grey;
+  -webkit-box-shadow: 1px 1px 0.5rem;
+          box-shadow: 1px 1px 0.5rem;
 }
 
 .collab__content .box {
@@ -376,6 +384,8 @@
   width: 60vw;
   height: 50vh;
   padding: 2rem;
+  -webkit-box-shadow: 1px 1px 0.5rem;
+          box-shadow: 1px 1px 0.5rem;
 }
 
 .footer .jobsearch__desc {
