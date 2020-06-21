@@ -212,9 +212,11 @@
 }
 
 .job {
-  margin: 2rem 0;
+  margin: 2rem 0 0;
   padding: 1rem;
+  padding-bottom: 5rem;
   background-color: #f0e6e2;
+  color: #36312e;
 }
 
 .job__header {
@@ -258,16 +260,119 @@
 .job__cards .card {
   margin: 1rem;
   background-color: white;
-  padding: 1rem;
+  padding: 2rem;
   font-size: 1.2rem;
   width: 300px;
   height: 200px;
+}
+
+.job__cards .card hr {
+  margin: 0.7rem 0;
+  background-color: #999;
+}
+
+.collab {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #f0e6e2), to(white));
+  background: linear-gradient(#f0e6e2 60%, white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+.collab__header {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 7rem;
+  padding: 1rem;
+  text-align: right;
+}
+
+.collab__subtitle {
+  color: red;
+}
+
+.collab__title {
+  font-size: 2.4rem;
+}
+
+.collab__image {
+  position: relative;
+}
+
+.collab__image #img1 {
+  z-index: 2;
+  position: absolute;
+  top: 3rem;
+  left: 13rem;
+}
+
+.collab__image #img2 {
+  z-index: 3;
+  position: absolute;
+  left: -2rem;
+  top: 10rem;
+}
+
+.collab__image #img3 {
+  z-index: 4;
+  position: absolute;
+  left: 13rem;
+  top: 20rem;
+}
+
+.collab__content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  background-color: white;
+  padding: 4rem 1.5rem;
+  -webkit-box-shadow: 1px 1px 2px grey;
+          box-shadow: 1px 1px 2px grey;
+}
+
+.collab__content .box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0px 0px 2px grey;
+          box-shadow: 0px 0px 2px grey;
+}
+
+.collab__content .box h2 {
+  font-size: 1.2rem;
+  border-bottom: 1.5rem;
+}
+
+.collab__content .box p {
+  font-size: 0.8rem;
+}
+
+.collab__content .box:hover {
+  background-color: #f7f1ef;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 4;
 }
 
 .footer .jobsearch {
   background-image: url("./../images/b.jpg");
   opacity: 0.9;
   margin: 2rem auto;
+  margin-top: 10rem;
   width: 60vw;
   height: 50vh;
   padding: 2rem;
